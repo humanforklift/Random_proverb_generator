@@ -1,0 +1,129 @@
+	html, body {
+		height: 100%;
+		font-family: 'Roboto', Tahoma;
+	}
+	
+	.page-background {
+	
+		width: 100%;
+		height: 100%;
+		
+		background:
+		
+			linear-gradient(
+				rgba(070, 130, 180, 0.3),
+				rgba(095, 158, 160, 0.3)
+				),
+				
+			url('http://blog.sugartrends.com/wp-content/uploads/2016/05/pexels-photo.jpg') no-repeat center center fixed;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			}
+	
+	.header {
+		font-family: 'Fjalla One';
+		text-align: center;
+		text-shadow: 2px 2px 5px gray;
+	}
+	
+	#intro-box {
+		width: 60%;
+	}
+	
+	#intro-text {
+		background-color: rgba(250, 250, 250, 0.7);
+		width: 100%;
+		font-size: 16px;
+		text-align: center;
+		padding-top: 3%;
+		padding-bottom: 1%;
+		box-shadow: 5px 5px 5px gray;
+	}
+	
+	#disclaimer {
+		font-size: 10px;
+		text-align: left;
+		font-style: italic;
+	}
+	
+	#button-section {
+		margin-top: -15px;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	
+	.btn-success {
+		font-size: 18px;
+		font-weight: bold;
+		letter-spacing: 1px;
+		padding: 1%;
+		color: black;
+		opacity: 0.9;
+		box-shadow: 5px 5px 5px gray;
+	}
+	
+	.btn-success:focus,
+	.btn-success:hover,
+	.btn-success:active {
+		color: #000000;
+		background-color: #62c462;
+		border-color: #62c462;
+		opacity: 0.9;
+	}
+	
+	.btn-danger {
+		font-size: 18px;
+		font-weight: bold;
+		letter-spacing: 1px;
+		padding: 1%;
+		color: black;
+		opacity: 0.9;
+		box-shadow: 5px 5px 5px gray;
+	}
+	
+	.btn-danger:focus,
+	.btn-danger:hover,
+	.btn-danger:active {
+		color: #000000;
+		background-color: #FA5858;
+		border-color: #FA5858;
+		opacity: 0.9;
+	}
+	
+	#proverb-box {
+		background-color: rgba(250, 250, 250, 0.7);
+		margin-top: 2px;
+		max-width: 80%;
+		height: 25%;
+		font-size: 18px;
+		text-align: center;
+		padding-bottom: 1px;
+		box-shadow: 5px 5px 5px gray;
+		border-radius: 3px;
+		visibility: hidden;
+		}
+		
+	.italic {
+		font-style: italic;
+	}	
+	
+	.bold {
+		font-weight: bold;
+	}
+		
+	#proverb-text {
+		margin-top: 1px;
+		padding-top: 1px;
+	}	
+		
+	#tweet {
+		margin-top: 1px;
+	}
+	
+	
+	
+
+		
+		
